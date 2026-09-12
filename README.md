@@ -88,7 +88,7 @@ the experiment sample.
 ## Project structure
 
 ~~~text
-mobile-game-data-analysis/
+mobile-game-ab-testing/
 ├── data/
 │   ├── cookie_cats.csv
 │   └── README.md
@@ -106,7 +106,6 @@ mobile-game-data-analysis/
 ├── tests/
 │   ├── test_analysis.py
 │   └── test_dashboard.py
-├── PROJECT_GUIDE_TR.md
 ├── requirements.txt
 └── README.md
 ~~~
@@ -116,7 +115,7 @@ mobile-game-data-analysis/
 Tested on Windows with Python 3.11.
 
 1. Download or clone the project.
-2. Open the `mobile-game-data-analysis` folder in PyCharm.
+2. Open the `mobile-game-ab-testing` folder in PyCharm.
 3. Create a new virtual environment when PyCharm asks for an interpreter.
 4. Open the PyCharm terminal.
 5. Install the packages:
