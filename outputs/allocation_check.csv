@@ -1,0 +1,2 @@
+gate_30_players,gate_40_players,gate_30_share,gate_40_share,share_difference_pp,z_score,p_value,differs_from_equal_split
+44700,45489,0.49562585237667567,0.5043741476233243,0.8748295246648705,2.627242841765075,0.008607987810836255,True
