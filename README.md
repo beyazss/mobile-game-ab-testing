@@ -1,4 +1,4 @@
-# # Mobile Game A/B Testing
+# Mobile Game A/B Testing
 
 ## Project overview
 
