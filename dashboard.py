@@ -516,4 +516,4 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.caption("Analysis and dashboard: Beyaz Karayılan · Portfolio project")
+
