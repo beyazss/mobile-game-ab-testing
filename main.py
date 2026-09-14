@@ -22,7 +22,7 @@ TEST_GROUP = "gate_40"
 
 
 def load_and_check_data() -> pd.DataFrame:
-    """Load the dataset and run the checks I need before starting the analysis."""
+    """Load the dataset and validate required columns, player IDs, groups and values."""
     data = pd.read_csv(DATA_PATH)
     required_columns = {
         "userid", "version", "sum_gamerounds", "retention_1", "retention_7"
@@ -235,7 +235,7 @@ def save_retention_chart(summary: pd.DataFrame) -> None:
 
 
 def print_result(result: dict) -> None:
-    """Print one result in a format that is easy to explain."""
+    """Print retention rates, effect estimates, confidence intervals and p-values."""
     print(f"\n{result['metric']}")
     print(f"Gate 30: {result['gate_30_rate']:.2%}")
     print(f"Gate 40: {result['gate_40_rate']:.2%}")

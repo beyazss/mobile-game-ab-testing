@@ -6,7 +6,7 @@ In this project, I analyzed a publicly shared player-level dataset presented as
 a Cookie Cats A/B-test case study. The experiment tested whether moving a
 progression gate from level 30 to level 40 changed player behavior and retention.
 
-I chose this dataset because it provides a clear question with real player-level data. My aim was to follow a simple analysis process that I could explain from beginning to end: check the data, compare the groups, test the retention differences and make a recommendation based on the result.
+I chose this dataset because it provides a clear question with real player-level data. The analysis compares retention and gameplay across the two groups to assess whether moving the gate to level 40 is supported by the data.
 
 ## Dashboard preview
 
@@ -41,7 +41,7 @@ The public dataset is available in the [Cookie Cats A/B testing repository](http
 6. Used a two-group proportion test and a 95% confidence interval.
 7. Saved the results as CSV tables and PNG charts.
 8. Built a Streamlit dashboard to explore the groups and review the experiment result.
-9. Turned the statistical result into a recommendation.
+
 
 ## Main results
 
@@ -60,8 +60,7 @@ identify a pre-registered primary outcome.
 
 The observed D7 result does not support rolling out Gate 40. Before making a
 production decision, I would confirm the planned group allocation and validate
-the assignment and tracking setup. If those checks are clean, I would retain
-Gate 30 and investigate why Gate 40 reduced D7 retention.
+the assignment and tracking setup. If those checks are clean, I would retain Gate 30 and investigate the factors behind the lower D7 retention observed in the Gate 40 group.
 
 The observed split is 49.56% for Gate 30 and 50.44% for Gate 40. A 50/50
 equal-split diagnostic gives p=0.0086. The public data does not state that the
